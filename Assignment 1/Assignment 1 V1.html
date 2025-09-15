@@ -1,1 +1,105 @@
-<p></p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+
+<body class="container">
+    <form action="#" method="POST">
+
+        <!--row 1-->
+        <div class="row">
+            <div class="col">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="form-control" required>
+            </div>
+            <div class="col">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="form-control" required>
+            </div>
+            <p></p>
+        </div>
+
+        <!--row 2-->
+        <div class="row">
+            <div class="col">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" class="form-control" required>
+            </div>
+            <p></p>
+        </div>
+
+        <!--row 3-->
+        <div class="row">
+            <div class="col">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" class="form-control" required>
+            </div>
+            <div class="col-4">
+                <label for="State">State</label>
+                <select id="State" name="State" class="form-select" required>
+                    <option value="MN">Minnesota</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MI" selected>Michigan</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MT">Montana</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" class="form-control" maxlength="5" required>
+            </div>
+            <p></p>
+        </div>
+
+        <!--row 4-->
+        <div class="row">
+            <div class="col">
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" class="form-control" required>
+            </div>
+            <div class="col">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" class="form-control" required>
+            </div>
+            <p></p>
+        </div>
+
+
+        <!--row 5-->
+
+        <div class="row">
+            <label for="contactMethod">Preferred method of contact:</label>
+            <p></p>
+            <p></p>
+        </div>
+
+        <!--row 6-->
+        <div class="row">
+            <div class="col">
+                <input type="radio" id="email" name="Contact" required>
+                <label for="Email">Email</label>
+                <input type="radio" id="text" name="Contact">
+                <label for="Text">Text</label>
+                <p></p>
+            </div>
+        </div>
+
+
+        <!--row 7-->
+
+        <div>
+            <button type="submit" value="Sign in" class="btn btn-primary">Sign In</button>
+            <p></p>
+        </div>
+    </form>
+</body>
+
+</html>
