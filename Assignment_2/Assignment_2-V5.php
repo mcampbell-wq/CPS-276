@@ -14,6 +14,7 @@ foreach ($numbers as $number) {     /*alternate if statements*/
     }
 }
 
+
 /* benefits of herdocs */
 $form = <<<HTML
 <p>
